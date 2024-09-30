@@ -43,7 +43,7 @@ const Navbar = () => {
           <li className="py-1">CONTACT</li>
           <hr className="border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden" />
         </NavLink>
-        <NavLink to="http://localhost:5174/">
+        <NavLink to="https://leparadigme-81azon8mp-fred972s-projects.vercel.app">
           <a className="border px-5 text-xs py-1.5 rounded-full">Admin Panel</a>
         </NavLink>
       </ul>
