@@ -36,8 +36,7 @@ const TopDoctors = () => {
                         Sélectionnez un service
                       </h2>
                       <p className="text-lg font-light text-white">
-                        Qui vous conviendra le mieux parmis notre liste en soin
-                        de santé.
+                        Trouvez le soin idéal parmi nos options.
                       </p>
                     </div>
                   </div>
@@ -54,11 +53,10 @@ const TopDoctors = () => {
                   <div className="w-full h-full   p-5   relative">
                     <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
                       <h2 className="text-2xl font-md  text-white mb-0 pb-1">
-                        Choississez un ou une spécialiste
+                        Choississez votre allié santé.
                       </h2>
                       <p className="text-lg font-light text-white">
-                        Un ou une super spécialiste sera prêt(e) pour vous
-                        accompagner
+                        Notre équipe de spécialistes est à votre écoute.
                       </p>
                     </div>
                   </div>
@@ -78,7 +76,7 @@ const TopDoctors = () => {
                         Choisissez une date
                       </h2>
                       <p className="text-lg font-light text-white">
-                        Sélectionnez le jour et l'heure qui vous convient
+                        Choisissez la date et l'heure qui vous arrangent.
                       </p>
                     </div>
                   </div>
@@ -98,8 +96,8 @@ const TopDoctors = () => {
                         Venez nous voir
                       </h2>
                       <p className="text-lg font-light text-white">
-                        Dans une ambiance relaxante et apaisante et
-                        professionnelle.
+                        Bénéficiez d'un accueil chaleureux et de conseils
+                        personnalisés dans un cadre professionnel.
                       </p>
                     </div>
                   </div>

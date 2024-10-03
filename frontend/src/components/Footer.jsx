@@ -13,12 +13,12 @@ const Footer = () => {
           <p className="text-xl font-medium mb-5">Le Paradigme</p>
           <ul className="flex flex-col gap-2 text-gray-600">
             <li>Horaire:</li>
-            <li>Lundi 8h30 - 16h30</li>
-            <li>Mardi 8h30 - 16h30</li>
-            <li>Mercredi 8h30 - 16h30</li>
-            <li>Jeudi 8h30 - 16h30</li>
-            <li>Vendredi 8h30 - 16h30</li>
-            <li>Samedi 8h30 - 16h30</li>
+            <li>Lundi : 8h30 - 16h30</li>
+            <li>Mardi : 8h30 - 16h30</li>
+            <li>Mercredi : 8h30 - 16h30</li>
+            <li>Jeudi : 8h30 - 16h30</li>
+            <li>Vendredi : 8h30 - 16h30</li>
+            <li>Samedi : 8h30 - 16h30</li>
           </ul>
         </div>
 
