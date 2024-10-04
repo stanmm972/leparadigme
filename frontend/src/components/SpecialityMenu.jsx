@@ -174,6 +174,11 @@ const SpecialityMenu = () => {
             </button>
           </div>
         </section>
+        <p className="text-black font-normal text-base px-14 py-8">
+          Votre santé, notre priorité. Découvrez nos soins personnalisés pour
+          vous sentir au mieux chaque jour. Prendre soin de soi, c'est s'offrir
+          le meilleur cadeau, c 'est s'accorder une pause bien-être.
+        </p>
         <section>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="grid gap-4">
@@ -201,17 +206,11 @@ const SpecialityMenu = () => {
             </div>
             <div className="grid gap-4">
               <div>
-                <p className="h-auto max-w-full rounded-lg text-white font-normal text-base px-14 py-8 bg-cyan-500 ">
-                  Votre santé, notre priorité.
-                  <br />
-                  Découvrez nos soins personnalisés pour vous sentir au mieux
-                  chaque jour.
-                  <br />
-                  Prendre soin de soi,
-                  <br />
-                  C'est s'offrir le meilleur cadeau,
-                  <br />C 'est s'accorder une pause bien-être.
-                </p>
+                <img
+                  className="h-auto max-w-full rounded-lg"
+                  src={img4}
+                  alt=""
+                />
               </div>
               <div>
                 <img
