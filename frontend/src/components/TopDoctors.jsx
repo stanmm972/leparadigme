@@ -22,17 +22,19 @@ const TopDoctors = () => {
             </span>{" "}
             un de nos services
           </h2>
-          <p className="mb-20 text-lg text-gray-900">
-            Rien de plus simplement....
-          </p>
+          <p className="mb-20 text-lg text-gray-900">Rien de plus simple....</p>
 
           <div className="grid grid-cols-1 gap-6   lg:grid-cols-4 ">
             <a className=" shadow-2xl relative ">
-              <div className="  h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg">
-                <div className=" absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500  ">
-                  <div className="w-full h-full   p-5   relative">
-                    <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
-                      <h2 className="text-2xl font-md  text-white mb-0 pb-1">
+              <div className="h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg">
+                <div className="absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500">
+                  <div className="w-full h-full p-5 relative">
+                    <div
+                      className="absolute bottom-0   
+ group-hover:bottom-24 text-white text-left transition-all ease-in-out duration-500   
+ opacity-0 group-hover:opacity-100"
+                    >
+                      <h2 className="text-2xl font-md text-white mb-0 pb-1">
                         Sélectionnez un service
                       </h2>
                       <p className="text-lg font-light text-white">
@@ -43,16 +45,20 @@ const TopDoctors = () => {
                 </div>
                 <img
                   src={ic1}
-                  className="w-full z-0  h-full    object-fill example "
+                  className="w-full z-0 h-full object-fill example"
                 />
               </div>
             </a>
             <a className=" shadow-2xl relative ">
-              <div className="  h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg ">
-                <div className=" absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500  ">
-                  <div className="w-full h-full   p-5   relative">
-                    <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
-                      <h2 className="text-2xl font-md  text-white mb-0 pb-1">
+              <div className="h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg">
+                <div className="absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500">
+                  <div className="w-full h-full p-5 relative">
+                    <div
+                      className="absolute bottom-0   
+ group-hover:bottom-24 text-white text-left transition-all ease-in-out duration-500   
+ opacity-0 group-hover:opacity-100"
+                    >
+                      <h2 className="text-2xl font-md text-white mb-0 pb-1">
                         Choississez votre allié santé.
                       </h2>
                       <p className="text-lg font-light text-white">
@@ -63,16 +69,20 @@ const TopDoctors = () => {
                 </div>
                 <img
                   src={ic2}
-                  className="w-full z-0  h-full    object-fill example "
+                  className="w-full z-0 h-full object-fill example"
                 />
               </div>
             </a>
             <a className=" shadow-2xl relative ">
-              <div className="  h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg">
-                <div className=" absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500  ">
-                  <div className="w-full h-full   p-5   relative">
-                    <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
-                      <h2 className="text-2xl font-md  text-white mb-0 pb-1">
+              <div className="h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg">
+                <div className="absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500">
+                  <div className="w-full h-full p-5 relative">
+                    <div
+                      className="absolute bottom-0   
+ group-hover:bottom-24 text-white text-left transition-all ease-in-out duration-500   
+ opacity-0 group-hover:opacity-100"
+                    >
+                      <h2 className="text-2xl font-md text-white mb-0 pb-1">
                         Choisissez une date
                       </h2>
                       <p className="text-lg font-light text-white">
@@ -83,16 +93,20 @@ const TopDoctors = () => {
                 </div>
                 <img
                   src={ic3}
-                  className="w-full z-0  h-full    object-fill example "
+                  className="w-full z-0 h-full object-fill example"
                 />
               </div>
             </a>
             <a className=" shadow-2xl relative ">
-              <div className="  h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg">
-                <div className=" absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500  ">
-                  <div className="w-full h-full   p-5   relative">
-                    <div className="absolute bottom-0 group-hover:bottom-24 text-white  text-left   transition-all ease-in-out duration-500 ">
-                      <h2 className="text-2xl font-md  text-white mb-0 pb-1">
+              <div className="h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg">
+                <div className="absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500">
+                  <div className="w-full h-full p-5 relative">
+                    <div
+                      className="absolute bottom-0   
+ group-hover:bottom-24 text-white text-left transition-all ease-in-out duration-500   
+ opacity-0 group-hover:opacity-100"
+                    >
+                      <h2 className="text-2xl font-md text-white mb-0 pb-1">
                         Venez nous voir
                       </h2>
                       <p className="text-lg font-light text-white">
@@ -104,7 +118,7 @@ const TopDoctors = () => {
                 </div>
                 <img
                   src={ic4}
-                  className="w-full z-0  h-full    object-fill example "
+                  className="w-full z-0 h-full object-fill example"
                 />
               </div>
             </a>

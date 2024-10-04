@@ -157,12 +157,6 @@ const SpecialityMenu = () => {
               </div>
             </div>
 
-            <div className="flex items-center justify-center mt-10 space-x-3 md:hidden">
-              <div className="w-2.5 h-2.5 rounded-full bg-blue-600 block"></div>
-              <div className="w-2.5 h-2.5 rounded-full bg-gray-300 block"></div>
-              <div className="w-2.5 h-2.5 rounded-full bg-gray-300 block"></div>
-            </div>
-
             <button
               onClick={() => {
                 navigate("/doctors");
