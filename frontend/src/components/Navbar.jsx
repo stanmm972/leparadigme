@@ -122,6 +122,12 @@ const Navbar = () => {
             <NavLink onClick={() => setShowMenu(false)} to="/contact">
               <p className="px-4 py-2 rounded full inline-block">CONTACT</p>
             </NavLink>
+            <NavLink
+              onClick={() => setShowMenu(false)}
+              to="https://leparadigme-admin.onrender.com"
+            >
+              <p className="px-4 py-2 rounded full inline-block">ADMIN</p>
+            </NavLink>
           </ul>
         </div>
       </div>
