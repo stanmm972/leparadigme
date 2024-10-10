@@ -15,8 +15,7 @@ const Header = () => {
           <img className="w-28" src={assets.group_profiles} alt="" />
           <p>
             Sélectionnez simplement votre spécialiste en soin de santé,{" "}
-            <br className="hidden sm:block" /> et planifiez votre rendez-vous
-            sans tracas.
+            <br className="hidden sm:block" /> et planifiez votre rendez-vous.
           </p>
         </div>
         <button
