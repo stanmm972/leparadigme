@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useContext, useState } from "react";
 import { DoctorContext } from "../context/DoctorContext";
 import { AdminContext } from "../context/AdminContext";
+import { NavLink } from "react-router-dom";
 import { toast } from "react-toastify";
 
 const Login = () => {
@@ -93,6 +94,11 @@ const Login = () => {
             </span>
           </p>
         )}
+        <p>
+          <NavLink to="https://leparadigme-frontend.onrender.com">
+            <p className="text-primary underline cursor-pointer">HomePage</p>
+          </NavLink>
+        </p>
       </div>
     </form>
   );
