@@ -15,16 +15,12 @@ const TopDoctors = () => {
     <>
       <section className="py-10 bg-w sm:py-16 lg:py-24 z-40 relative">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-light   text-black sm:text-4xl lg:text-5xl">
-            Comment{" "}
-            <span className="block w-full font-light text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-500 lg:inline">
-              Réserver
-            </span>{" "}
-            un de nos services
+          <h2 className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">
+            Comment Réserver un de nos services
           </h2>
           <p className="mb-20 text-lg text-gray-900">Rien de plus simple....</p>
 
-          <div className="grid grid-cols-1 gap-6   lg:grid-cols-4 ">
+          <div className="grid grid-cols-2 gap-6   lg:grid-cols-4 ">
             <a className=" shadow-2xl relative ">
               <div className="h-full relative shadow-2xl shadow-green-900 overflow-hidden group rounded-lg">
                 <div className="absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500">
@@ -126,11 +122,8 @@ const TopDoctors = () => {
         </div>
       </section>
       <div className="flex flex-col items-center gap-4 my-16 text-[#262626] md:mx-10">
-        <h1 className="text-3xl font-light   text-black sm:text-4xl lg:text-5xl">
-          Notre{" "}
-          <span className="block w-full font-light text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-500 lg:inline">
-            Équipe
-          </span>{" "}
+        <h1 className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">
+          Notre Équipe
         </h1>
         <p className="sm:w-1/3 text-center text-sm">
           Une équipe extraordinaire à votre service.
@@ -167,7 +160,7 @@ const TopDoctors = () => {
             </div>
           ))}
         </div>
-        <button
+        {/*         <button
           onClick={() => {
             navigate("/doctors");
             scrollTo(0, 0);
@@ -175,7 +168,7 @@ const TopDoctors = () => {
           className="bg-[#EAEFFF] text-gray-600 px-12 py-3 rounded-full mt-10"
         >
           et plus encore
-        </button>
+        </button> */}
       </div>
     </>
   );
