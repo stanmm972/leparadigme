@@ -26,7 +26,8 @@ const Doctors = () => {
   return (
     <div>
       <p className="text-gray-600">
-        Le personnel soignant : un engagement sans faille au service de la santé{" "}
+        Notre travail vous permet d'accéder rapidement à une infirmière
+        clinicienne pour de l'accompagnement dans le maintien de votre santé.
       </p>
       <div className="flex flex-col sm:flex-row items-start gap-5 mt-5">
         <button

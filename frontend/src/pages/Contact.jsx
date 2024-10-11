@@ -27,7 +27,7 @@ const Contact = () => {
           <p className=" text-gray-500">
             Tel: (450) 966-2951 <br /> Email: service@leparadigme.com
           </p>
-          <p className=" font-semibold text-lg text-gray-600">
+          {/*           <p className=" font-semibold text-lg text-gray-600">
             Vous souhaitez appliquer chez nous. Rien de plus facile.
           </p>
           <p className=" text-gray-500">
@@ -35,7 +35,7 @@ const Contact = () => {
           </p>
           <button className="border border-black px-8 py-4 text-sm hover:bg-black hover:text-white transition-all duration-500">
             Envoyez
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

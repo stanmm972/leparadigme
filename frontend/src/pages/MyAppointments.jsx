@@ -236,12 +236,18 @@ const MyAppointments = () => {
               )}
 
               {!item.cancelled && !item.isCompleted && (
-                <button
-                  onClick={() => cancelAppointment(item._id)}
-                  className="text-[#696969] sm:min-w-48 py-2 border rounded hover:bg-red-600 hover:text-white transition-all duration-300"
-                >
-                  Annuler RDV
-                </button>
+                <>
+                  <button
+                    onClick={() => cancelAppointment(item._id)}
+                    className="text-[#696969] sm:min-w-48 py-2 border rounded hover:bg-red-600 hover:text-white transition-all duration-300"
+                  >
+                    Annuler RDV
+                  </button>
+                  <p>
+                    Si vous souhaitez annuler votre RDV, vous devez le faire{" "}
+                    <span className="text-red-800">24h</span> en avance.
+                  </p>
+                </>
               )}
               {item.cancelled && !item.isCompleted && (
                 <button className="sm:min-w-48 py-2 border border-red-500 rounded text-red-500">

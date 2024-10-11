@@ -30,15 +30,20 @@ const Appointment = () => {
     // getting current date
     let today = new Date();
 
-    for (let i = 0; i < 15; i++) {
+    for (let i = 0; i < 30; i++) {
       // getting date with index
       let currentDate = new Date(today);
       currentDate.setDate(today.getDate() + i);
 
+      const dayOfWeek = currentDate.getDay();
+      if (dayOfWeek === 6 || dayOfWeek === 0) {
+        continue; // Skip this day
+      }
+
       // setting end time of the date with index
       let endTime = new Date();
       endTime.setDate(today.getDate() + i);
-      endTime.setHours(21, 0, 0, 0);
+      endTime.setHours(15, 0, 0, 0);
 
       // setting hours
       if (today.getDate() === currentDate.getDate()) {
@@ -47,8 +52,8 @@ const Appointment = () => {
         );
         currentDate.setMinutes(currentDate.getMinutes() > 30 ? 30 : 0);
       } else {
-        currentDate.setHours(10);
-        currentDate.setMinutes(0);
+        currentDate.setHours(7);
+        currentDate.setMinutes(30);
       }
 
       let timeSlots = [];
@@ -156,9 +161,9 @@ const Appointment = () => {
             {/*             <p>
               {docInfo.degree} - {docInfo.speciality}
             </p> */}
-            <button className="py-0.5 px-2 border text-xs rounded-full">
+            {/*             <button className="py-0.5 px-2 border text-xs rounded-full">
               {docInfo.experience}
-            </button>
+            </button> */}
           </div>
 
           {/* ----- Doc About ----- */}
@@ -203,6 +208,9 @@ const Appointment = () => {
                 value={rdvMotif}
                 className="border rounded px-2 py-2"
               >
+                <option value="Choisir ici votre soin">
+                  Choisir ici votre soin
+                </option>
                 <option value="Mal d'oreille | Lavage d'oreille">
                   Mal d'oreille | Lavage d'oreille
                 </option>
@@ -283,7 +291,7 @@ const Appointment = () => {
       </div>
 
       {/* Listing Releated Doctors */}
-      <RelatedDoctors speciality={docInfo.speciality} docId={docId} />
+      {/* <RelatedDoctors speciality={docInfo.speciality} docId={docId} /> */}
     </div>
   ) : null;
 };

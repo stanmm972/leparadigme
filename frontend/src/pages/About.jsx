@@ -33,8 +33,9 @@ const About = () => {
           <b className="text-gray-800">Notre vision</b>
           <p>
             Notre vision est de devenir la référence en matière de soins de
-            santé personnalisés, en offrant des solutions innovantes et centrées
-            sur le patient, pour un bien-être optimal de tous.
+            santé. Nos soins sont orientés vers la personne, en tenant compte de
+            tous ses aspects bio-psycho-sociaux, de son environnement, de sa
+            qualité de vie, tout en visant à promouvoir la santé publique.
           </p>
         </div>
         <img
@@ -63,8 +64,8 @@ const About = () => {
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
           <b>PRATIQUE: </b>
           <p>
-            Possibilité de consulter des professionnels de la santé fiables près
-            de chez vous.
+            Possibilité de consulter des professionnels de la santé près de chez
+            vous.
           </p>
         </div>
         <div className="border px-10 md:px-16 py-8 sm:py-16 flex flex-col gap-5 text-[15px] hover:bg-primary hover:text-white transition-all duration-300 text-gray-600 cursor-pointer">
