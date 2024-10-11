@@ -27,7 +27,7 @@ const TopDoctors = () => {
                   <div className="w-full h-full p-5 relative">
                     <div
                       className="absolute bottom-0   
- group-hover:bottom-24 text-white text-left transition-all ease-in-out duration-500   
+  text-white text-left transition-all ease-in-out duration-500   
  opacity-0 group-hover:opacity-100"
                     >
                       <h2 className="text-2xl font-md text-white mb-0 pb-1">
@@ -50,8 +50,7 @@ const TopDoctors = () => {
                 <div className="absolute -bottom-10 group-hover:top-0 left-0 w-full h-full group-hover:bg-green-900 transition-all ease-in-out duration-500">
                   <div className="w-full h-full p-5 relative">
                     <div
-                      className="absolute bottom-0   
- group-hover:bottom-24 text-white text-left transition-all ease-in-out duration-500   
+                      className="absolute bottom-0  text-white text-left transition-all ease-in-out duration-500   
  opacity-0 group-hover:opacity-100"
                     >
                       <h2 className="text-2xl font-md text-white mb-0 pb-1">
@@ -75,7 +74,7 @@ const TopDoctors = () => {
                   <div className="w-full h-full p-5 relative">
                     <div
                       className="absolute bottom-0   
- group-hover:bottom-24 text-white text-left transition-all ease-in-out duration-500   
+  text-white text-left transition-all ease-in-out duration-500   
  opacity-0 group-hover:opacity-100"
                     >
                       <h2 className="text-2xl font-md text-white mb-0 pb-1">
@@ -99,7 +98,7 @@ const TopDoctors = () => {
                   <div className="w-full h-full p-5 relative">
                     <div
                       className="absolute bottom-0   
- group-hover:bottom-24 text-white text-left transition-all ease-in-out duration-500   
+  text-white text-left transition-all ease-in-out duration-500   
  opacity-0 group-hover:opacity-100"
                     >
                       <h2 className="text-2xl font-md text-white mb-0 pb-1">
