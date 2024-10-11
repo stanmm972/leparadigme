@@ -209,7 +209,7 @@ const Appointment = () => {
                 className="border rounded px-2 py-2"
               >
                 <option value="Choisir ici votre soin">
-                  Choisir ici votre soin
+                  Choisir votre soin
                 </option>
                 <option value="Mal d'oreille | Lavage d'oreille">
                   Mal d'oreille | Lavage d'oreille

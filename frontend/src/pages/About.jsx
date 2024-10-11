@@ -5,11 +5,8 @@ const About = () => {
   return (
     <div>
       <div className="text-center text-2xl pt-10 text-[#707070]">
-        <h1 className="text-3xl font-light   text-black sm:text-4xl lg:text-5xl">
-          Le{" "}
-          <span className="block w-full font-light text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-500 lg:inline">
-            Paradigme
-          </span>{" "}
+        <h1 className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">
+          Le Paradigme
         </h1>
       </div>
 
@@ -46,11 +43,8 @@ const About = () => {
       </div>
 
       <div className="text-center text-md my-12">
-        <p className="text-3xl font-light   text-black sm:text-4xl lg:text-5xl">
-          Pourquoi{" "}
-          <span className="block w-full font-light text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-500 lg:inline">
-            Nous choisir
-          </span>{" "}
+        <p className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">
+          Pourquoi Nous choisir
         </p>
       </div>
 

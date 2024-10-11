@@ -65,7 +65,7 @@ const Login = () => {
         </p>
         {state === "Sign Up" ? (
           <div className="w-full ">
-            <p>Votre nom au complet</p>
+            <p>Nom et prénom</p>
             <input
               onChange={(e) => setName(e.target.value)}
               value={name}

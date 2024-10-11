@@ -55,7 +55,7 @@ const TopDoctors = () => {
  opacity-0 group-hover:opacity-100"
                     >
                       <h2 className="text-2xl font-md text-white mb-0 pb-1">
-                        Choississez votre allié santé.
+                        Votre allié santé
                       </h2>
                       <p className="text-lg font-light text-white">
                         Notre équipe de spécialistes est à votre écoute.
@@ -106,8 +106,7 @@ const TopDoctors = () => {
                         Venez nous voir
                       </h2>
                       <p className="text-lg font-light text-white">
-                        Bénéficiez d'un accueil chaleureux et de conseils
-                        personnalisés dans un cadre professionnel.
+                        Un accueil chaleureux et des conseils personnalisés.
                       </p>
                     </div>
                   </div>

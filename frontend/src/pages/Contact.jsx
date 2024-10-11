@@ -5,11 +5,8 @@ const Contact = () => {
   return (
     <div>
       <div className="text-center text-2xl pt-10 text-[#707070]">
-        <p className="text-3xl font-light   text-black sm:text-4xl lg:text-5xl">
-          Nous{" "}
-          <span className="block w-full font-light text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-500 lg:inline">
-            Contacter
-          </span>{" "}
+        <p className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">
+          Nous Contacter
         </p>
       </div>
 
