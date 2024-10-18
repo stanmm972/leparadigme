@@ -1,9 +1,17 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
     <div>
+      <Helmet>
+        <meta name="description" content="Notre clinique" />
+        <meta
+          name="keywords"
+          content="soins de santé, secteur médical, spécialiste, soins personnalisés, parcours de santé, traitements, clinique, Le paradigme"
+        />
+      </Helmet>
       <div className="text-center text-2xl pt-10 text-[#707070]">
         <h1 className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">
           Le Paradigme

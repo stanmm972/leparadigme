@@ -1,13 +1,22 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
     <div>
+      <Helmet>
+        <meta name="description" content="Nous joindre - contacter" />
+        <meta
+          name="keywords"
+          content="2953 rue Dupras,
+Mascouche, Québec, J7K 1T3, (450) 966-2951, clinique, Le paradigme"
+        />
+      </Helmet>
       <div className="text-center text-2xl pt-10 text-[#707070]">
-        <p className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">
+        <h1 className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">
           Nous Contacter
-        </p>
+        </h1>
       </div>
 
       <div className="my-10 flex flex-col justify-center md:flex-row gap-10 mb-28 text-sm">

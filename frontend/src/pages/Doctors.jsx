@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from "react";
 import { AppContext } from "../context/AppContext";
 import { useNavigate, useParams } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Doctors = () => {
   const { speciality } = useParams();
@@ -25,6 +26,13 @@ const Doctors = () => {
 
   return (
     <div>
+      <Helmet>
+        <meta name="description" content="Soins offerts" />
+        <meta
+          name="keywords"
+          content="Réserver, soin, spécialiste, infirmière, clinique, Le paradigme"
+        />
+      </Helmet>
       <p className="text-gray-600">
         Notre travail vous permet d'accéder rapidement à une infirmière
         clinicienne pour de l'accompagnement dans le maintien de votre santé.

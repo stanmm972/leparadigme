@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { useNavigate } from "react-router-dom";
 import { AppContext } from "../context/AppContext";
+import { Helmet } from "react-helmet";
 import ic1 from "../assets/ic1.png";
 import ic2 from "../assets/ic2.png";
 import ic3 from "../assets/ic3.png";
@@ -13,6 +14,16 @@ const TopDoctors = () => {
 
   return (
     <>
+      <Helmet>
+        <meta
+          name="description"
+          content="Comment réserver un de nos services"
+        />
+        <meta
+          name="keywords"
+          content="Réserver, soin, spécialiste, date et heure, conseils personnalisés, clinique, Le paradigme"
+        />
+      </Helmet>
       <section className="py-10 bg-w sm:py-16 lg:py-24 z-40 relative">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-light   text-red-700 sm:text-4xl lg:text-5xl">

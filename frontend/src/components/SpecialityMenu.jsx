@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 import b1 from "../assets/b1.png";
 import b2 from "../assets/b2.png";
 import b3 from "../assets/b3.png";
@@ -13,23 +14,26 @@ import b9 from "../assets/b9.png";
 import b10 from "../assets/b10.png";
 import b11 from "../assets/b11.png";
 import b12 from "../assets/b12.png";
-import img1 from "../assets/img1.jpg";
-import img2 from "../assets/img2.jpg";
 import img3 from "../assets/img3.jpg";
-import img4 from "../assets/img4.jpg";
 import img5 from "../assets/img5.jpg";
 import img6 from "../assets/img6.jpg";
 import img7 from "../assets/img7.jpg";
-import img8 from "../assets/img8.jpg";
-import img9 from "../assets/img9.jpg";
-import img10 from "../assets/img10.jpg";
-import img11 from "../assets/img11.jpg";
-import img12 from "../assets/img12.jpg";
 
 const SpecialityMenu = () => {
   const navigate = useNavigate();
   return (
     <>
+      <Helmet>
+        <title>Nos services</title>
+        <meta
+          name="description"
+          content="Vous allez retrouver tous nos différents services proposé par la clinique Le paradigme"
+        />
+        <meta
+          name="keywords"
+          content="Services, Mal d'oreille, lavage d'oreille, prise de sang, traitement de verrues, contraception, points de suture et pansement, pap test, vaccination, dépistage ITSS, bilan annuel, bilan sanguin, renouvellement prescription, formulaire SAAQ, analyse urinaire, soutien à l'allaitement, clinique, Le paradigme"
+        />
+      </Helmet>
       <div
         id="speciality"
         className="flex flex-col items-center gap-4 py-16 text-[#262626]"

@@ -33,7 +33,8 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024 @ LeParadigme.com - All Right Reserved.
+          Copyright 2024 @ LeParadigme.com - All Right Reserved | Developed by
+          FredMM
         </p>
       </div>
     </div>
