@@ -31,7 +31,10 @@ Mascouche, Québec, J7K 1T3, (450) 966-2951, clinique, Le paradigme"
             2953 rue Dupras <br /> Mascouche, Québec, J7K 1T3
           </p>
           <p className=" text-gray-500">
-            Tel: (450) 966-2951 <br /> Email: service@leparadigme.ca
+            Tel: (450) 966-2951 <br />{" "}
+            <a href="mailto:service@leparadigme.ca?subject=Help%20Needed">
+              service@leparadigme.ca
+            </a>
           </p>
           {/*           <p className=" font-semibold text-lg text-gray-600">
             Vous souhaitez appliquer chez nous. Rien de plus facile.

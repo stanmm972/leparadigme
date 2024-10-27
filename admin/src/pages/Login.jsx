@@ -95,7 +95,7 @@ const Login = () => {
           </p>
         )}
         <p>
-          <NavLink to="https://leparadigme-frontend.onrender.com">
+          <NavLink to="https://www.leparadigme.ca">
             <p className="text-primary underline cursor-pointer">HomePage</p>
           </NavLink>
         </p>

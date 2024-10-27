@@ -1,6 +1,5 @@
 import React from "react";
 import { assets } from "../assets/assets";
-
 const Footer = () => {
   return (
     <div className="md:mx-10">
@@ -25,7 +24,9 @@ const Footer = () => {
           <p className="text-xl font-medium mb-5">Nous rejoindre</p>
           <ul className="flex flex-col gap-2 text-gray-600">
             <li>(450)-966-2951</li>
-            <li>service@leparadigme.ca</li>
+            <a href="mailto:service@leparadigme.ca?subject=Help%20Needed">
+              service@leparadigme.ca
+            </a>
           </ul>
         </div>
       </div>
