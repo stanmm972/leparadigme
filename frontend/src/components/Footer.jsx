@@ -25,7 +25,7 @@ const Footer = () => {
           <p className="text-xl font-medium mb-5">Nous rejoindre</p>
           <ul className="flex flex-col gap-2 text-gray-600">
             <li>(450)-966-2951</li>
-            <li>service@leparadigme.com</li>
+            <li>service@leparadigme.ca</li>
           </ul>
         </div>
       </div>
@@ -33,7 +33,7 @@ const Footer = () => {
       <div>
         <hr />
         <p className="py-5 text-sm text-center">
-          Copyright 2024 @ LeParadigme.com - All Right Reserved | Developed by
+          Copyright 2024 @ LeParadigme.ca - All Right Reserved | Developed by
           FredMM
         </p>
       </div>
